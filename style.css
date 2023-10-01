@@ -2,12 +2,15 @@ body {
     margin: 0%;
     padding: 0%;
     font-family: 'Gabarito', cursive;
+
 }
 
 .navbar {
-    width: 100%;
+    width: 100vw;
     height: 50px;
     position: fixed;
+    display: flex;
+    flex-direction: row;
 }
 
 .logo {
@@ -15,14 +18,15 @@ body {
     margin-left: 100px;
     height: 40px;
     width: 200px;
-    border: 2px solid black;
+    border: 2px solid #0b0c10;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: white;
 }
 
 .fnbox {
-    background-color: black;
+    background-color: #0b0c10;
     margin-right: 10px;
     width: 55px;
     height: 35px;
@@ -43,4 +47,83 @@ body {
     font-weight: 800;
     font-size: 30px;
     letter-spacing: 2px;
+}
+
+.menu {
+    
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.menu button {
+    border: none;
+    background-color: transparent;
+    font-family: 'Gabarito', cursive;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.menu span {
+    background-color: #0b0c10;
+    width: 2px;
+    height: 30px;
+    margin: 0px 10px;
+
+}
+.homepage {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    z-index: -9;
+    
+    
+}
+
+.angel {
+    background-color: antiquewhite;
+    width: 2000px;
+    height: 2000px;
+    rotate: 25deg;
+    margin-left: -500px;
+    margin-top: -500px;
+    position: absolute;
+    z-index: -10;
+    display: flex;
+    padding-left: 4%;
+}
+
+.box1 {
+    width: 1000px;
+    height: 1500px;
+    background-color: aqua;
+}
+
+.box2 {
+    width: 1000px;
+    height: 2000px;
+    background-color: #0b0c10;
+}
+
+.sloganbox {
+    width: 50vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+    
+}
+
+.slogan h1 {
+    font-size: 60px;
+    font-weight: 900;
 }
