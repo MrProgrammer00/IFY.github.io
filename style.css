@@ -1,0 +1,104 @@
+:root {
+    border: 1px solid red;
+    --primary-color: #17252a ;
+    --secondary-color: #efefff ;
+    --primarySec-color: ;
+    --background-color: #3aafa9;
+}
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    color: var(--secondary-color);
+    background-color: var(--background-color);
+    font-family: 'Gabarito', cursive;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+    
+}
+
+header {
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    
+    
+    
+}
+
+.logo {
+    margin-left: 10%;
+    width: 150px;
+    height: 50px;
+    border: 2px solid var(--primary-color);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.firstname {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    width: 50px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lastname {
+    color: var(--primary-color);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 40%;
+    width: 500px;
+    height: 50px;
+    
+    
+}
+
+.menu div button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: var(--primary-color);
+
+}
+
+.homepage {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    
+    margin: 0%;
+    padding: 0%;
+    flex-direction: column;
+}
+
+.homepage div {
+    
+    width: 100vw;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.homepage h1 {
+    font-size: 70px;
+   
+
+}
+
+.slogan {
+    font-size: 40px;
+}
+
