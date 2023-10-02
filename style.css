@@ -1,5 +1,5 @@
 :root {
-    border: 1px solid red;
+    
     --primary-color: #17252a ;
     --secondary-color: #efefff ;
     --primarySec-color: ;
@@ -85,7 +85,7 @@ header {
 .homepage div {
     
     width: 100vw;
-    border: 1px solid red;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
